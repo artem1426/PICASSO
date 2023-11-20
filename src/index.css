@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #282c31;
+}
+
+* a {
+  text-decoration: none !important;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: .7rem;
+  background-color: rgba(154, 154, 154, 0.76);
+  border-radius: 2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f97316;
+  border: 1px solid #707070;
+  border-radius: 2rem;
+}
+
+@layer components {
+
+}
+
+@layer base {
+
+}
+
+@layer utilities {
+
+}
